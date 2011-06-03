@@ -14,6 +14,7 @@
 		83203735139905BE00D59C96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83203734139905BE00D59C96 /* main.m */; };
 		83203738139905BE00D59C96 /* MoneyMattersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83203737139905BE00D59C96 /* MoneyMattersAppDelegate.m */; };
 		8320373B139905BE00D59C96 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83203739139905BE00D59C96 /* MainWindow.xib */; };
+		83203749139906EC00D59C96 /* CurrenciesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83203748139906EC00D59C96 /* CurrenciesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +22,15 @@
 		83203727139905BE00D59C96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		83203729139905BE00D59C96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8320372B139905BE00D59C96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8320372F139905BE00D59C96 /* MoneyMatters-Info.plist */ = {isa = PBXFileReference; path = "MoneyMatters-Info.plist"; sourceTree = "<group>"; };
+		8320372F139905BE00D59C96 /* MoneyMatters-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoneyMatters-Info.plist"; sourceTree = "<group>"; };
 		83203731139905BE00D59C96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		83203733139905BE00D59C96 /* MoneyMatters-Prefix.pch */ = {isa = PBXFileReference; path = "MoneyMatters-Prefix.pch"; sourceTree = "<group>"; };
+		83203733139905BE00D59C96 /* MoneyMatters-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoneyMatters-Prefix.pch"; sourceTree = "<group>"; };
 		83203734139905BE00D59C96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		83203736139905BE00D59C96 /* MoneyMattersAppDelegate.h */ = {isa = PBXFileReference; path = MoneyMattersAppDelegate.h; sourceTree = "<group>"; };
+		83203736139905BE00D59C96 /* MoneyMattersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoneyMattersAppDelegate.h; sourceTree = "<group>"; };
 		83203737139905BE00D59C96 /* MoneyMattersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyMattersAppDelegate.m; sourceTree = "<group>"; };
 		8320373A139905BE00D59C96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		83203747139906EC00D59C96 /* CurrenciesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrenciesViewController.h; sourceTree = "<group>"; };
+		83203748139906EC00D59C96 /* CurrenciesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrenciesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				83203736139905BE00D59C96 /* MoneyMattersAppDelegate.h */,
+				83203747139906EC00D59C96 /* CurrenciesViewController.h */,
+				83203748139906EC00D59C96 /* CurrenciesViewController.m */,
 				83203737139905BE00D59C96 /* MoneyMattersAppDelegate.m */,
 				83203739139905BE00D59C96 /* MainWindow.xib */,
 				8320372E139905BE00D59C96 /* Supporting Files */,
@@ -157,6 +162,7 @@
 			files = (
 				83203735139905BE00D59C96 /* main.m in Sources */,
 				83203738139905BE00D59C96 /* MoneyMattersAppDelegate.m in Sources */,
+				83203749139906EC00D59C96 /* CurrenciesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +229,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoneyMatters/MoneyMatters-Prefix.pch";
 				INFOPLIST_FILE = "MoneyMatters/MoneyMatters-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -236,6 +243,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoneyMatters/MoneyMatters-Prefix.pch";
 				INFOPLIST_FILE = "MoneyMatters/MoneyMatters-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

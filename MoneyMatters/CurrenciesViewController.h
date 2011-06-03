@@ -1,5 +1,5 @@
 //
-//  MoneyMattersAppDelegate.h
+//  CurrenciesViewController.h
 //  MoneyMatters
 //
 //  Created by Chris Leicester on 03/06/2011.
@@ -10,17 +10,11 @@
 //
 #import <UIKit/UIKit.h>
 
-@class MoneyMattersViewController;
-@class CurrenciesViewController;
-
-@interface MoneyMattersAppDelegate : NSObject <UIApplicationDelegate> {
-    // TODO UIWindow *window;
-    CurrenciesViewController *currenciesViewController;
+@interface CurrenciesViewController : UITableViewController {
+    NSArray *localeIdArray;
+    NSArray *numbersArray;
+    NSNumberFormatter *currencyFormatter;
 }
-
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-
-@property (nonatomic, retain) IBOutlet MoneyMattersViewController *viewController;
 @end
 //
 //  Permission is hereby granted, free of charge, to any person obtaining
