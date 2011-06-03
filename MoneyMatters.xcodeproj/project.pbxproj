@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83203728139905BE00D59C96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83203727139905BE00D59C96 /* UIKit.framework */; };
+		8320372A139905BE00D59C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83203729139905BE00D59C96 /* Foundation.framework */; };
+		8320372C139905BE00D59C96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8320372B139905BE00D59C96 /* CoreGraphics.framework */; };
+		83203732139905BE00D59C96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83203730139905BE00D59C96 /* InfoPlist.strings */; };
+		83203735139905BE00D59C96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83203734139905BE00D59C96 /* main.m */; };
+		83203738139905BE00D59C96 /* MoneyMattersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83203737139905BE00D59C96 /* MoneyMattersAppDelegate.m */; };
+		8320373B139905BE00D59C96 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83203739139905BE00D59C96 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83203723139905BE00D59C96 /* MoneyMatters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyMatters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83203727139905BE00D59C96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83203729139905BE00D59C96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8320372B139905BE00D59C96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8320372F139905BE00D59C96 /* MoneyMatters-Info.plist */ = {isa = PBXFileReference; path = "MoneyMatters-Info.plist"; sourceTree = "<group>"; };
+		83203731139905BE00D59C96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83203733139905BE00D59C96 /* MoneyMatters-Prefix.pch */ = {isa = PBXFileReference; path = "MoneyMatters-Prefix.pch"; sourceTree = "<group>"; };
+		83203734139905BE00D59C96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83203736139905BE00D59C96 /* MoneyMattersAppDelegate.h */ = {isa = PBXFileReference; path = MoneyMattersAppDelegate.h; sourceTree = "<group>"; };
+		83203737139905BE00D59C96 /* MoneyMattersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyMattersAppDelegate.m; sourceTree = "<group>"; };
+		8320373A139905BE00D59C96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83203720139905BE00D59C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83203728139905BE00D59C96 /* UIKit.framework in Frameworks */,
+				8320372A139905BE00D59C96 /* Foundation.framework in Frameworks */,
+				8320372C139905BE00D59C96 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83203718139905BE00D59C96 = {
+			isa = PBXGroup;
+			children = (
+				8320372D139905BE00D59C96 /* MoneyMatters */,
+				83203726139905BE00D59C96 /* Frameworks */,
+				83203724139905BE00D59C96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83203724139905BE00D59C96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83203723139905BE00D59C96 /* MoneyMatters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83203726139905BE00D59C96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83203727139905BE00D59C96 /* UIKit.framework */,
+				83203729139905BE00D59C96 /* Foundation.framework */,
+				8320372B139905BE00D59C96 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8320372D139905BE00D59C96 /* MoneyMatters */ = {
+			isa = PBXGroup;
+			children = (
+				83203736139905BE00D59C96 /* MoneyMattersAppDelegate.h */,
+				83203737139905BE00D59C96 /* MoneyMattersAppDelegate.m */,
+				83203739139905BE00D59C96 /* MainWindow.xib */,
+				8320372E139905BE00D59C96 /* Supporting Files */,
+			);
+			path = MoneyMatters;
+			sourceTree = "<group>";
+		};
+		8320372E139905BE00D59C96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8320372F139905BE00D59C96 /* MoneyMatters-Info.plist */,
+				83203730139905BE00D59C96 /* InfoPlist.strings */,
+				83203733139905BE00D59C96 /* MoneyMatters-Prefix.pch */,
+				83203734139905BE00D59C96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83203722139905BE00D59C96 /* MoneyMatters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8320373E139905BE00D59C96 /* Build configuration list for PBXNativeTarget "MoneyMatters" */;
+			buildPhases = (
+				8320371F139905BE00D59C96 /* Sources */,
+				83203720139905BE00D59C96 /* Frameworks */,
+				83203721139905BE00D59C96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyMatters;
+			productName = MoneyMatters;
+			productReference = 83203723139905BE00D59C96 /* MoneyMatters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8320371A139905BE00D59C96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "CocoaShed Ltd";
+			};
+			buildConfigurationList = 8320371D139905BE00D59C96 /* Build configuration list for PBXProject "MoneyMatters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83203718139905BE00D59C96;
+			productRefGroup = 83203724139905BE00D59C96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83203722139905BE00D59C96 /* MoneyMatters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83203721139905BE00D59C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83203732139905BE00D59C96 /* InfoPlist.strings in Resources */,
+				8320373B139905BE00D59C96 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8320371F139905BE00D59C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83203735139905BE00D59C96 /* main.m in Sources */,
+				83203738139905BE00D59C96 /* MoneyMattersAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83203730139905BE00D59C96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83203731139905BE00D59C96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83203739139905BE00D59C96 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8320373A139905BE00D59C96 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8320373C139905BE00D59C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8320373D139905BE00D59C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8320373F139905BE00D59C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoneyMatters/MoneyMatters-Prefix.pch";
+				INFOPLIST_FILE = "MoneyMatters/MoneyMatters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83203740139905BE00D59C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoneyMatters/MoneyMatters-Prefix.pch";
+				INFOPLIST_FILE = "MoneyMatters/MoneyMatters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8320371D139905BE00D59C96 /* Build configuration list for PBXProject "MoneyMatters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8320373C139905BE00D59C96 /* Debug */,
+				8320373D139905BE00D59C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8320373E139905BE00D59C96 /* Build configuration list for PBXNativeTarget "MoneyMatters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8320373F139905BE00D59C96 /* Debug */,
+				83203740139905BE00D59C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8320371A139905BE00D59C96 /* Project object */;
+}
